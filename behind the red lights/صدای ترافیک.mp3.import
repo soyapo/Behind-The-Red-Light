@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/صدای ترافیک.mp3-a64e468f52808d18ff35c5bbc8301c78.mp3str"
+
+[deps]
+
+source_file="res://صدای ترافیک.mp3"
+dest_files=[ "res://.import/صدای ترافیک.mp3-a64e468f52808d18ff35c5bbc8301c78.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

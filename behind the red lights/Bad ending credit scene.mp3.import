@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Bad ending credit scene.mp3-e9409b42f4780fd04e719c7134466a00.mp3str"
+
+[deps]
+
+source_file="res://Bad ending credit scene.mp3"
+dest_files=[ "res://.import/Bad ending credit scene.mp3-e9409b42f4780fd04e719c7134466a00.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

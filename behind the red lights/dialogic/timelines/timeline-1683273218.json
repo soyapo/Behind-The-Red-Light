@@ -22,7 +22,17 @@
 			"character": "character-1683273142.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "She needs some sort of expensive medicine in 3 days, or she'll die. I have to make money for that..."
+			"text": "She needs some sort of expensive medicine in 3 days, or she'll die. I have to make money for that... \nbehind the red lights"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "go",
+				"target_node_path": "start"
+			},
+			"event_id": "dialogic_042"
 		}
 	],
 	"metadata": {

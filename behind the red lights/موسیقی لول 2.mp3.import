@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/موسیقی لول 2.mp3-61a15b4570623b5a643945b898d3342a.mp3str"
+
+[deps]
+
+source_file="res://موسیقی لول 2.mp3"
+dest_files=[ "res://.import/موسیقی لول 2.mp3-61a15b4570623b5a643945b898d3342a.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

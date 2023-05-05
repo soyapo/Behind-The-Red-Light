@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/خش خش تکست.wav-4926ca24de35ea39c9a764d57a8433f5.sample"
+
+[deps]
+
+source_file="res://خش خش تکست.wav"
+dest_files=[ "res://.import/خش خش تکست.wav-4926ca24de35ea39c9a764d57a8433f5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

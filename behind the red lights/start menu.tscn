@@ -1,9 +1,10 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://mithra.png" type="Texture" id=1]
 [ext_resource path="res://start menu.gd" type="Script" id=2]
 [ext_resource path="res://the unseen.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://BRADHITC.TTF" type="DynamicFontData" id=4]
+[ext_resource path="res://موسیقی منو.mp3" type="AudioStream" id=5]
 
 [sub_resource type="Animation" id=1]
 resource_name = "New Anim"
@@ -218,12 +219,16 @@ align = 1
 
 [node name="Label3" type="Label" parent="."]
 visible = false
-margin_left = 515.0
-margin_top = 51.0
-margin_right = 570.0
-margin_bottom = 90.0
+margin_left = 773.0
+margin_top = 50.0
+margin_right = 828.0
+margin_bottom = 89.0
 custom_colors/font_color = Color( 0.886275, 0.105882, 0.105882, 1 )
 custom_fonts/font = SubResource( 5 )
 text = "red"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Label3"]
+stream = ExtResource( 5 )
+autoplay = true
 
 [connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

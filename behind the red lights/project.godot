@@ -81,7 +81,13 @@ _global_script_class_icons={
 [application]
 
 config/name="Behind The Red Lights"
+run/main_scene="res://start menu.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+Scene="res://scene.gd"
+Global="*res://global.tscn"
 
 [display]
 

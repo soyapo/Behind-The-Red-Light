@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/موسیقی منو.mp3-3b11e990079f939fbdc1747d60292d64.mp3str"
+
+[deps]
+
+source_file="res://موسیقی منو.mp3"
+dest_files=[ "res://.import/موسیقی منو.mp3-3b11e990079f939fbdc1747d60292d64.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -48,6 +48,15 @@
 			"value": "1"
 		},
 		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What have you got?"
+		},
+		{
 			"definition": "1683284633-731",
 			"event_id": "dialogic_014",
 			"operation": "+",
@@ -56,19 +65,52 @@
 			"set_value": "1"
 		},
 		{
-			"character": "character-1683278687.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
+			"choice": "My Tulips are 8T each. I’m in need, please buy. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
 		},
 		{
-			"character": "character-1683278687.json",
-			"event_id": "dialogic_010",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": " What have you got? "
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"choice": "They’re all pretty. Please buy some.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "I’ve got Tulip and Rose. 10T for each. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -86,10 +128,89 @@
 
 			],
 			"portrait": "",
-			"question": "What’s the price?"
+			"question": "What's the price?"
+		},
+		{
+			"choice": "My Tulips are 8T each. I’m in need, please buy. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"choice": "They’re all pretty. Please buy some.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "I’ve got Tulip and Rose. 10T for each. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1683284633-731",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"definition": "1683286055-557",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1683284633-731",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1683286055-557",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -102,14 +223,291 @@
 			"value": ""
 		},
 		{
-			"choice": "Hello. Would you buy some flowers for your grandchild",
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haven’t got cash with me."
+		},
+		{
+			"choice": "Hello. Would you buy some flowers for your grandchild?",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
 		},
 		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"definition": "1683284057-364",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_lower_limit": 1,
+			"random_upper_limit": 3,
+			"set_random": true,
+			"set_value": ""
+		},
+		{
+			"condition": "",
+			"definition": "1683284057-364",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sure, my grandson loves flowers."
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "I have Tulips, 8T for each. My mom’s sick, please buy.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Your grandson will love these Roses.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "These Tulips are nice.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1683284057-364",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "My grandson likes Tulip. Do you have some?"
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": " I have Tulips, 8T for each. My mom’s sick, please buy.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Your grandson will love these Roses.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "These Tulips are nice.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "end"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1683284633-731",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Thank you, I'll buy two."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1.5
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "flowerp2",
+				"target_node_path": "day1"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1683284633-731",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok,  I'll buy one."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1.5
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "flowerp1",
+				"target_node_path": "day1"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1683284633-731",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorry, can't buy flowers now."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": false,
+			"wait_seconds": 1.5
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "noflower",
+				"target_node_path": "day1"
+			},
+			"event_id": "dialogic_042"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"call_node": {
+				"arguments": [
+
+				],
+				"method_name": "oldman1",
+				"target_node_path": "day1"
+			},
+			"event_id": "dialogic_042"
 		}
 	],
 	"metadata": {

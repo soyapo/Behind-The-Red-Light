@@ -10,3 +10,5 @@ extends Control
 func _ready():
 	var dialog = Dialogic.start("start")
 	add_child(dialog)
+func go():
+	get_tree().change_scene("res://day1tr.tscn")
