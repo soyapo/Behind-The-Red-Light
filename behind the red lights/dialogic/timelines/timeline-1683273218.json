@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"character": "character-1683273142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Since the day my father went out to buy milk and never came back, our life has been tough in the family."
+		},
+		{
+			"character": "character-1683273142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "My mother worked hard to support me, and to make it possible for me to attend a decent school."
+		},
+		{
+			"character": "character-1683273142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Though recently, she hasen't been going to work. She hasen't made delicious meals. She's mostly on bed."
+		},
+		{
+			"character": "character-1683273142.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "She needs some sort of expensive medicine in 3 days, or she'll die. I have to make money for that..."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683273218.json",
+		"name": "start"
+	}
+}

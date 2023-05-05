@@ -1,0 +1,120 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Try to convince the old man"
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"choice": "Hello sir. Do You want some flowers?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1683284057-364",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_lower_limit": 1,
+			"random_upper_limit": 3,
+			"set_random": true,
+			"set_value": ""
+		},
+		{
+			"condition": "",
+			"definition": "1683284057-364",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"definition": "1683284633-731",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " What have you got? "
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "",
+			"definition": "1683284057-364",
+			"event_id": "dialogic_012",
+			"value": "2"
+		},
+		{
+			"character": "character-1683278687.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "What’s the price?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Hi, wanna buy some flowers?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Hello. Would you buy some flowers for your grandchild",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1683278984.json",
+		"name": "oldmanline"
+	}
+}

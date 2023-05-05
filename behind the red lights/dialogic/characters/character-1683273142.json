@@ -1,0 +1,21 @@
+{
+	"color": "#ff00f9ff",
+	"description": "",
+	"display_name": "Mehrad",
+	"display_name_bool": true,
+	"id": "character-1683273142.json",
+	"mirror_portraits": false,
+	"name": "mehrad",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

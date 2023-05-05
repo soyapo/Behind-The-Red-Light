@@ -1,0 +1,229 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://mithra.png" type="Texture" id=1]
+[ext_resource path="res://start menu.gd" type="Script" id=2]
+[ext_resource path="res://the unseen.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://BRADHITC.TTF" type="DynamicFontData" id=4]
+
+[sub_resource type="Animation" id=1]
+resource_name = "New Anim"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray(  ),
+"transitions": PoolRealArray(  ),
+"update": 1,
+"values": [  ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TextureRect:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1.5, 3 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 3, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ false, false, true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Label2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 3, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Label3:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 3, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, false, true ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("TextureRect:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Label:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("Label2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Label3:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Label2:modulate")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "space"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath("Label2:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5, 1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 0, 0, 0, 1 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="DynamicFont" id=3]
+size = 77
+font_data = ExtResource( 4 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 33
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 38
+outline_color = Color( 1, 0, 0, 1 )
+font_data = ExtResource( 3 )
+
+[node name="start menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+"anims/New Anim" = SubResource( 1 )
+anims/RESET = SubResource( 2 )
+anims/space = SubResource( 6 )
+
+[node name="Label" type="Label" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -204.0
+margin_top = 47.0
+margin_right = 459.0
+margin_bottom = 144.0
+rect_scale = Vector2( 0.584997, 0.499077 )
+custom_fonts/font = SubResource( 3 )
+text = "behind the      lights"
+align = 1
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -205.0
+margin_top = -120.0
+margin_right = 194.0
+margin_bottom = -9.0
+custom_fonts/font = SubResource( 4 )
+text = "press space to start
+"
+align = 1
+
+[node name="Label3" type="Label" parent="."]
+visible = false
+margin_left = 515.0
+margin_top = 51.0
+margin_right = 570.0
+margin_bottom = 90.0
+custom_colors/font_color = Color( 0.886275, 0.105882, 0.105882, 1 )
+custom_fonts/font = SubResource( 5 )
+text = "red"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_AnimationPlayer_animation_finished"]

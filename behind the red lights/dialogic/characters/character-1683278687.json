@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "A nice old man willing to buy",
+	"display_name": "Old Man",
+	"display_name_bool": true,
+	"id": "character-1683278687.json",
+	"mirror_portraits": false,
+	"name": "old man",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}

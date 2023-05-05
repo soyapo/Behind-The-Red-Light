@@ -1,0 +1,21 @@
+{
+	"color": "#ffffffff",
+	"description": "a nice young lady",
+	"display_name": "Young Lady",
+	"display_name_bool": true,
+	"id": "character-1683278913.json",
+	"mirror_portraits": false,
+	"name": "young lady",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100,
+	"theme": ""
+}
